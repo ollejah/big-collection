@@ -14,7 +14,7 @@
         </div>
     </center>
 
-    <table style="margin-bottom: 2em; width: 100%; clear: both;">
+    <table style="width: 100%; clear: both;">
         <thead>
             <tr>
                 <th>#</th>
