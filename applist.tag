@@ -1,6 +1,7 @@
 <applist>
     <style>
     table {
+        margin-bottom: 2em;
         width: 100%;
         clear: both;
     }
