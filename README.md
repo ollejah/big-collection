@@ -5,3 +5,5 @@ See examples...
 
 Open browser console. 
 Click buttons to load json data
+
+How can I speed up render? due to nested tags? virtual tags?
