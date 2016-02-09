@@ -1,4 +1,11 @@
 <applist>
+    <style>
+    table {
+        width: 100%;
+        clear: both;
+    }
+    </style>
+
     <center class="centered">
         <div style="float:left;">
             <button class="btn" disabled={ page==0 } onclick={first}> &laquo; First </button>
@@ -13,7 +20,7 @@
         </div>
     </center>
 
-    <table id="sortable">
+    <table>
         <thead>
             <tr>
                 <th>#</th>
