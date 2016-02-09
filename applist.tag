@@ -1,11 +1,4 @@
 <applist>
-    <style>
-    table {
-        margin-bottom: 2em;
-        width: 100%;
-        clear: both;
-    }
-    </style>
 
     <center class="centered">
         <div style="float:left;">
@@ -21,7 +14,7 @@
         </div>
     </center>
 
-    <table>
+    <table style="margin-bottom: 2em; width: 100%; clear: both;">
         <thead>
             <tr>
                 <th>#</th>
