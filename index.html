@@ -13,11 +13,11 @@
     </style>
 </head>
 
-<body onload="getData('data.json')">
+<body onload="getData('./data.json')">
     <h1>Slow render</h1>
     <p>Riot is very slow crawling objects if there is key _ into obj. See examples... Open browser console. Click buttons to load json data</p>
     <div style="width:50%; float:left">
-        <button onclick="getData('_data.json')">Load data with underscored key</button>
+        <button onclick="getData('./_data.json')">Load data with underscored key</button>
         <pre>{
     ...
     "created_at": "2015-07-31 11:38:54",
@@ -28,7 +28,7 @@
 mount: 9311.96мс</pre>
     </div>
     <div style="width:50%; float:left">
-        <button onclick="getData('data.json')">Load data without underscored key</button>
+        <button onclick="getData('./data.json')">Load data without underscored key</button>
         <pre>{
     ...
     "created_at": "2015-07-31 11:38:54",
