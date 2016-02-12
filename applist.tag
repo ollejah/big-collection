@@ -22,7 +22,7 @@
             </tr>
         </thead>
         <tbody>
-            <tr each={ item, i in paged(items) } name={ item._id }>
+            <tr each={ item, i in paged(items) }>
                 <td>{ (page * pagesize) + i + 1 }.</td>
                 <td each={ value, i in item } title={ item[value] }>
                     { item[value] }
